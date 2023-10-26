@@ -81,3 +81,18 @@
     js_form.addEventListener("submit", function (e) {
         e.preventDefault();
     });
+
+
+/**
+ * Code btn
+ */
+
+function TextVoirPLus(e){
+    const change=e.target;
+    change.textContent="Des projets sont en cours...";
+}
+
+const seeMoreBtn=document.querySelector("[data-btn-voir-plus]");
+seeMoreBtn.addEventListener("click",(e)=>{
+    setTimeout(TextVoirPLus(e),1000);
+});
