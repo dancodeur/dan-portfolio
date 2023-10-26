@@ -102,27 +102,27 @@ seeMoreBtn.addEventListener("click",(e)=>{
  */
 
 
-const btnOn= document.querySelector("[data-btn-toogle-on]");
-const btnOff= document.querySelector("[data-btn-toogle-off]");
-const textLight= document.querySelector("[data-toogle-light]");
-const textDark= document.querySelector("[data-toogle-dark]");
+// const btnOn= document.querySelector("[data-btn-toogle-on]");
+// const btnOff= document.querySelector("[data-btn-toogle-off]");
+// const textLight= document.querySelector("[data-toogle-light]");
+// const textDark= document.querySelector("[data-toogle-dark]");
 
-btnOn.style.display="none";
+// btnOn.style.display="none";
 
-btnOn.addEventListener("click",()=>{
-    setTimeout(function(){
-        btnOff.style.display="block";
-        btnOn.style.display="none";
-    },1000);
+// btnOn.addEventListener("click",()=>{
+//     setTimeout(function(){
+//         btnOff.style.display="block";
+//         btnOn.style.display="none";
+//     },1000);
 
-});
+// });
 
-btnOff.addEventListener("click",()=>{
+// btnOff.addEventListener("click",()=>{
     
-    setTimeout(function(){
-        btnOn.style.display="block";
-        btnOff.style.display="none"; 
-    },1000);
+//     setTimeout(function(){
+//         btnOn.style.display="block";
+//         btnOff.style.display="none"; 
+//     },1000);
 
-});
+// });
 
