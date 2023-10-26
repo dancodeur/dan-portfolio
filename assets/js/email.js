@@ -84,7 +84,7 @@
 
 
 /**
- * Code btn
+ * Code btn voir plus
  */
 
 function TextVoirPLus(e){
@@ -96,3 +96,33 @@ const seeMoreBtn=document.querySelector("[data-btn-voir-plus]");
 seeMoreBtn.addEventListener("click",(e)=>{
     setTimeout(TextVoirPLus(e),1000);
 });
+
+/**
+ * Code bouton toggle
+ */
+
+
+const btnOn= document.querySelector("[data-btn-toogle-on]");
+const btnOff= document.querySelector("[data-btn-toogle-off]");
+const textLight= document.querySelector("[data-toogle-light]");
+const textDark= document.querySelector("[data-toogle-dark]");
+
+btnOn.style.display="none";
+
+btnOn.addEventListener("click",()=>{
+    setTimeout(function(){
+        btnOff.style.display="block";
+        btnOn.style.display="none";
+    },1000);
+
+});
+
+btnOff.addEventListener("click",()=>{
+    
+    setTimeout(function(){
+        btnOn.style.display="block";
+        btnOff.style.display="none"; 
+    },1000);
+
+});
+
