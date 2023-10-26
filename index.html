@@ -86,7 +86,7 @@
 									afin de gérer la création,la modification, la suppression d'article ainsi qu'un système
 									d'inscription des nouveaux administrateurs.
 								</h5>
-								<h6><strong>Technolgies :</strong>  HTML 5, Tailwind css, PHP, Mysql, Laravel, Git</h6>
+								<h6><strong>Technolgies :</strong>  HTML 5, Tailwind css, PHP, Mysql, Laravel, Git.</h6>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
@@ -96,7 +96,7 @@
 									de Docker en invite de commande sous linux , la création et la modification du fichier docker-compose.yml ainsi que la configuration de wordpress en ligne mais aussi
 									l'attribution  d'un nom de domaine à l'adresse IP Public de l'instance au moyen de DuckDns. 
 								</h5>
-								<h6><strong>Technolgies :</strong>  Linux , Instance EC2 - Aws, Docker , Wordpress-Elementor</h6>
+								<h6><strong>Technolgies :</strong>  Linux , Instance EC2 - Aws, Docker , Wordpress-Elementor.</h6>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/crud_projet (1).png" class="image fit thumb"><img src="images/fulls/crud_projet (1).png" alt="Dan Elenga projet CRUD en PHP-MYSQL projet personnel" /></a>	
@@ -105,7 +105,7 @@
 								<h5>Dans le cadre d'un projet individuel en cours de PHP. J'ai mis en place une petite application  qui 
                                     permet de créer, de lire, de modifier et de supprimer des données des adhérents depuis une base de données hébergée sur alwaysdata. Le code source est sur mon compte github.
 								</h5>
-								<h6><strong>Technolgies :</strong>  HTML 5, Css 3, PHP, Mysql</h6>
+								<h6><strong>Technolgies :</strong>  HTML 5, Css 3, PHP, Mysql.</h6>
 							</article>
 						</div>
 						<ul class="actions">
@@ -124,16 +124,17 @@
 		
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="post" action="#">
+								<form method="post" action="" id="javascript_form">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nom" /></div>
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nom" required /></div>
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4" required></textarea></div>
 									</div>
 								</form>
 								<ul class="actions">
-									<li><input type="submit" value="Envoyer" /></li>
+									<li><input type="submit" id="js_send" value="Envoyer" /></li>
 								</ul>
+								<p data-mail-response></p>
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
